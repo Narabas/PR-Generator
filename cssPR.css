@@ -1,0 +1,9 @@
+#cat{}
+
+.randomize-button {
+  background: #505940 !important;
+  color: #efeeeb !important;
+  text-transform: uppercase;
+  padding: 10px !important;
+  margin: 10px 0;
+}
