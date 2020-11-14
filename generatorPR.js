@@ -12,6 +12,6 @@ function RandomPRCharacter() {
   CharacterName = PRcharacters[0][choose];
   CharacterSheet = PRcharacters[1][choose];
 
-  document.querySelector("#cat").innerHTML = CharacterName + " " + "<a href='" + CharacterSheet + "'>Sheet</a>");
+  document.querySelector("#cat").innerHTML = CharacterName + " " + "Sheet".link(CharacterSheet);
 
 }
